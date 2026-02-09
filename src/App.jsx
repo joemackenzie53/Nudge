@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { DataProvider } from './data/store'
+import { DataProvider } from './state/store'
 import { Sidebar, BottomNav } from './components/Nav'
 import Topbar from './components/Topbar'
 import QuickAddModal from './components/QuickAddModal'
